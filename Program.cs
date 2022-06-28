@@ -10,20 +10,14 @@ namespace FinderNET.ItemCreator {
             var option = AnsiConsole.Prompt(
                 new SelectionPrompt<string>()
                     .Title("[aqua]Select an option[/]")
-                    .PageSize(5)
+                    .PageSize(3)
                     .AddChoices(new[] {
-                        "Create new Item", "Edit existing Item", "Delete existing Item", "Exit"
+                        "Create new Item", "Exit"
                     })
             );
             switch (option) {
                 case "Create new Item":
                     CreateItem();
-                    break;
-                case "Edit existing Item":
-                    EditItem();
-                    break;
-                case "Delete existing Item":
-                    DeleteItem();
                     break;
                 case "Exit":
                     AnsiConsole.MarkupLine("[blue]Exiting[/]");
