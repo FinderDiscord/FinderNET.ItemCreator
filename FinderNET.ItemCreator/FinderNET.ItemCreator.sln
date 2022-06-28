@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinderNET.ItemCreator", "FinderNET.ItemCreator.csproj", "{F34C38BC-C67B-462F-A8C7-AD7D3300A5E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F34C38BC-C67B-462F-A8C7-AD7D3300A5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34C38BC-C67B-462F-A8C7-AD7D3300A5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34C38BC-C67B-462F-A8C7-AD7D3300A5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34C38BC-C67B-462F-A8C7-AD7D3300A5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D540DA3-CB12-4C3D-B330-C356E4629216}
+	EndGlobalSection
+EndGlobal
